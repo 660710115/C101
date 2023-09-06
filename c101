@@ -1,4 +1,9 @@
 #include<stdio.h>
 void main(){
-printf("Sun");
+int i;
+printf("Sun\n");
+for(i=0;i<5;i++){
+  printf("%d\n",i);
+}
+
 }
